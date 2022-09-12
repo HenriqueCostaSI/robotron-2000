@@ -1,5 +1,5 @@
 const controle = document.querySelectorAll("[data-controle]");
-const estatistica = document.querySelectorALL("[data-estatistica]");
+const estatistica = document.querySelectorAll("[data-estatistica]");
 
 const pecas = {
     "bracos": {
