@@ -43,7 +43,7 @@ controle.forEach( (elemento) => {
 
         manipulaDados(evento.target.dataset.controle, evento.target.parentNode);
         
-        atualizaEstatiticas(evento.target.dataset.peca);
+        atualizaEstatisticas(evento.target.dataset.peca);
         
     })
 });
@@ -62,7 +62,7 @@ function manipulaDados(operacao, controlePai) {
 
 };
 
-function atualizaEstatistica(peca) {
+function atualizaEstatisticas(peca) {
 
     estatistica.forEach( (elemento ) => {
 
